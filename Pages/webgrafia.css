@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+position: relative;
+background: #000000;
+color: #fff;
+height: 100vh;
+width: 100%;
+background-image: url(../Image/Background.jpg);
+background-repeat: no-repeat;
+
+}
+    
+
+body nav{
+width: 100%;
+padding: 5px 1%;
+display: flex;
+align-items: center;
+background-color: #790252;
+border-radius: 5px;
+position:fixed;
+background-color:black;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius:50px;
+border-bottom:solid;
+border-bottom-color: #e80f88;
+border-bottom-width: 7px;
+}
+
+.logocamoes{
+height: 45px;
+border-radius: 5px;
+margin: 0 35px;
+}
+
+.list{
+    flex: 1;
+    text-align: right;
+    margin-right: 225px;
+    
+}
+
+.list li{
+    display: inline-block ;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+#name1 ,#name2 ,#name3 ,#name4{
+    color: #fff;
+    text-decoration: none;
+    height: 152px;
+    transition:border 1s;
+      
+}
+
+#name1:hover ,#name2:hover ,#name3 ,#name4:hover{
+    border-bottom: 3px solid #e80f88;
+  
+}
+
+nav button:hover{
+    
+background-color: #e80f88;
+
+}
+
+nav button{
+margin:0 15px;
+background-color:#115AC1;
+border: none;
+height: 30px;
+color: #fff;
+border-radius: 30px;
+transition:background 0.9s;
+}
+
+nav button p{
+    margin: 3px;
+}
+
+.mainbox_body p{
+margin: 5%;
+}
+
+.mirror{
+    height: 88%;
+    width: 90%;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+    background:rgba(255, 255, 255, 0.178); 
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+    }
+
+main .mirror{
+margin: 0.5% 5%;
+align-items: center;
+text-align: center;
+}
+
+
+main img{
+    height: 115px;
+    width: auto;
+
+}
+
+th, td {
+    border: 1.8px solid rgba(1, 153, 255, 0.918);
+    background-color: aliceblue;
+  }
+  
+th{
+    padding: 1px 18px; 
+    margin: 5px;
+    font: bold;
+    font-size: larger;
+    color: #e80f88;
+}
+
+td{
+    padding: 10px 18px;
+    margin: 5px;
+
+}
+td a , li ,td{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+table, th ,td{
+    border-radius: 20px;
+    text-align: center;
+}
+
+tr td:first-of-type{
+color: #e80f88;
+font-weight: bold;
+}
+
+td img{
+    margin: 0px 5px;
+
+    height: 20px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}
+table{
+    margin-bottom: 50px;
+    padding: 20px;
+
+}

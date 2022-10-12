@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+position: relative;
+background: #000000;
+color: #fff;
+height: 100vh;
+width: 100%;
+background-image: url(../Image/Background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+    
+
+body nav{
+width: 100%;
+padding: 5px 1%;
+display: flex;
+align-items: center;
+background-color: #790252;
+border-radius: 5px;
+position:fixed;
+background-color:black;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius:50px;
+border-bottom:solid;
+border-bottom-color: #e80f88;
+border-bottom-width: 7px;
+}
+
+.logocamoes{
+height: 45px;
+border-radius: 5px;
+margin: 0 35px;
+}
+
+.list{
+    flex: 1;
+    text-align: right;
+    margin-right: 225px;
+    
+}
+
+.list li{
+    display: inline-block ;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+#name1 ,#name2 ,#name3 ,#name4{
+    color: #fff;
+    text-decoration: none;
+    height: 152px;
+    transition:border 1s;
+      
+}
+
+#name1:hover ,#name2:hover ,#name3:hover ,#name4{
+    border-bottom: 3px solid #e80f88;
+  
+}
+
+nav button:hover{
+    
+background-color: #e80f88;
+
+}
+
+nav button{
+margin:0 15px;
+background-color:#115AC1;
+border: none;
+height: 30px;
+color: #fff;
+border-radius: 30px;
+transition:background 0.9s;
+}
+
+nav button p{
+    margin: 3px;
+}
+
+.box{
+    height: 88vh;
+    width: 90%;
+    border-radius: 50px;
+    margin: 1% 5%;
+    box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+    background:rgba(255, 255, 255, 0.178); 
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.box{
+    align-items: center;
+    text-align: center;
+    padding: 3% 4%;
+
+}
+
+.photo{
+    align-items: center;
+}
+.photo img{
+border-radius: 50px;
+}
+
+ul .items{
+    padding: 5px;
+    margin: 10px;
+    height:7vh;
+    width: auto;
+    border-radius: 20px;
+    background-color: #e80f88;
+    list-style-type: none;
+    text-align: center;
+}
+
+.items:target-text{
+margin: 5px;
+
+}
+
+.items p{
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+}
+ .butm_text{
+    margin: 2%;
+    padding: 1px;
+    font-size: larger;
+ }
+

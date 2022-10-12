@@ -1,0 +1,2459 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+position: relative;
+background: #000000;
+color: #fff;
+height: 100vh;
+width: 100%;
+background-image: url(../Image/Background.jpg);
+background-repeat: no-repeat;
+}
+    
+
+body nav{
+width: 100%;
+padding: 5px 1%;
+display: flex;
+align-items: center;
+background-color: #790252;
+border-radius: 5px;
+position:fixed;
+background-color:black;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius:50px;
+border-bottom:solid;
+border-bottom-color: #e80f88;
+border-bottom-width: 7px;
+}
+
+.logocamoes{
+height: 45px;
+border-radius: 5px;
+margin: 0 35px;
+}
+
+.list{
+    flex: 1;
+    text-align: right;
+    margin-right: 225px;
+    
+}
+
+.list li{
+    display: inline-block ;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+#name1 ,#name2 ,#name3 ,#name4{
+    color: #fff;
+    text-decoration: none;
+    height: 152px;
+    transition:border 1s;
+      
+}
+
+#name1:hover ,#name2 ,#name3:hover ,#name4:hover{
+    border-bottom: 3px solid #e80f88;
+  
+}
+
+nav button:hover{
+    
+background-color: #e80f88;
+
+}
+
+nav button{
+margin:0 15px;
+background-color:#115AC1;
+border: none;
+height: 30px;
+color: #fff;
+border-radius: 30px;
+transition:background 0.9s;
+}
+
+nav button p{
+    margin: 3px;
+}
+
+#title{
+text-align: center;
+text-shadow: 2px 2px 2px rgb(0, 0, 0);
+font-size: 34px;
+}
+
+main{
+width: 100%;
+height: 100%;
+}
+
+main ul #box1 , #box2 , #box3 ,#box4 ,#box5, #box6{
+        height: 350px;
+        width: 350px;
+        margin: 5% 4.5%;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+        background:rgba(255, 255, 255, 0.178); 
+        border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+        border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+     
+        
+    } 
+
+
+    #box7{
+        height: 350px;
+        width: 350px;
+        margin: 4.8% 36.8%;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+        background:rgba(255, 255, 255, 0.178); 
+        border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+        border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+    }
+
+main ul{
+    display: flex;
+}
+
+
+.button1 ,.button2 ,.button3 ,.button4, .button5 ,.button6 ,.button7 ,.button8 ,.button9 ,.button10 ,.button11 ,.button12 ,.button13 ,.button14 ,.button15 ,.button17 ,.button20 ,.button21 ,.button22 ,.button23{
+    border: none;
+    background-color: #e80f88;
+    height:20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .button16, .button18 ,.button19,.button24{
+   border: none;
+    background-color: #e80f8600;
+    height:20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .button1 , .button5 ,.button9 ,.button13 ,.button17 ,.button21{
+    padding: 1px;
+    margin-right: 44.1%;
+  }
+
+.button2 , .button6 ,.button10 ,.button14 ,.button18 ,.button22{
+    padding: 1px;
+    margin-left: 44.1%;
+}
+
+.top{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.bottom{
+margin-top: 10px;
+}
+
+#box_text{
+    font-size:42px;
+    text-align: center;
+    margin: 2px;
+}
+
+#box_text4{
+    font-size:42px;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 14.1%;
+    }
+
+
+#box_text5{
+    font-size:41px;
+        text-align: center;
+        margin-top: 7.4%;
+        margin-bottom: 6%;
+}
+
+#box_text6{
+    font-size:42px;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;    
+}
+
+
+.button3, .button7 ,.button11 ,.button15 ,.button19 ,.button23{
+    padding: 1px;
+    margin-right: 44.1%;
+}
+
+.button4, .button8 ,.button12 ,.button16 ,.button20 ,.button24{
+    padding: 1px;
+    margin-left: 44.1%;
+}
+
+
+#box1:hover ,#box2:hover, #box3:hover , #box4:hover, #box5:hover , #box6:hover , #box7:hover{
+animation-name: box_back;
+animation-duration: 1s;
+animation-delay: 1ms;
+}
+ @keyframes box_back{
+    0%{background-color: #e80f86df;}
+  100%{}  
+ }
+
+ #box1 h2:hover ,#box2 h2:hover, #box3 h2:hover , #box4 h2:hover, #box5 h2:hover , #box6 h2:hover , #box7 h2:hover{
+    animation-name:text_box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    }
+ @keyframes text_box{
+
+        10%{color:white;}
+        20%{color:#FD841F;}
+        30%{color:#e80f88}
+        85%{color: rgb(255, 0, 225);}
+        90%{color: #E14D2A;}
+        100%{color: #04ff9f;}
+
+ }
+ /*----------------------------------------------------------------------*/
+/* ---------------------first box 1 buttom----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+    background:rgb(255, 255, 255); 
+    border: 2px solid black;
+    color: #000000;
+    z-index: 10;
+    height: 85%;
+    width: 75%;
+    max-width: 85%;
+    max-height: 85%;
+    transition: 250ms ease-in-out;
+ }
+
+ .mainbox_head{
+    display: flex;
+    border-bottom:3px  #e80f86df solid;
+    text-align: center;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ 
+ .close-button{
+    background: none;
+    font-size:large;
+    border:none;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+  
+ }
+
+ .mainbox_title{
+    font-size: larger;
+    font-weight: 600;
+ }
+
+ .mainbox_body{
+    margin: 2%;
+    text-align: center;
+ }
+
+ #mainbox.active{
+    transform: translate(-50%, -50%) scale(1);
+ }
+
+ /*----------------------------------------------------------------------*/
+/* ---------------------first box 1 buttom end------------------------- */
+ /*----------------------------------------------------------------------*/
+
+
+
+ /* ------------------ universal over layer----------------- */
+
+ #overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #100f0fc8;
+    pointer-events: none ;
+    transition: 250ms ease-in-out;
+ }
+
+ #overlay.active{
+pointer-events: all;
+opacity: 1;
+ }
+ /* ------------------ universal over layer end-------------- */
+
+
+ /*----------------------------------------------------------------------*/
+/* ---------------------first box 2 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox1{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+    background:rgb(255, 255, 255); 
+    border: 2px solid black;
+    color: #000000;
+    z-index: 10;
+    height: 85%;
+    width: 75%;
+    max-width: 85%;
+    max-height: 85%;
+    transition: 250ms ease-in-out;
+ }
+
+ .mainbox_head1{
+    display: flex;
+    border-bottom:3px  #e80f86df solid;
+    text-align: center;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ 
+ .close-button1{
+    background: none;
+    font-size:large;
+    border:none;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+  
+ }
+
+ .mainbox_title1{
+    font-size: larger;
+    font-weight: 600;
+ }
+
+ .mainbox_body1{
+    margin: 2%;
+    text-align: center;
+ }
+ #mainbox1.active{
+    transform: translate(-50%, -50%) scale(1);
+ }
+
+/*----------------------------------------------------------------------*/
+/* ---------------------first box 2 buttom -end------------------------- */
+ /*----------------------------------------------------------------------*/
+
+
+
+
+ /*----------------------------------------------------------------------*/
+/* ---------------------first box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox2{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+    background:rgb(255, 255, 255); 
+    border: 2px solid black;
+    color: #000000;
+    z-index: 10;
+    height: 85%;
+    width: 75%;
+    max-width: 85%;
+    max-height: 85%;
+    transition: 250ms ease-in-out;
+ }
+
+ .mainbox_head2{
+    display: flex;
+    border-bottom:3px  #e80f86df solid;
+    text-align: center;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ 
+ .close-button2{
+    background: none;
+    font-size:large;
+    border:none;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+  
+ }
+
+ .mainbox_title2{
+    font-size: larger;
+    font-weight: 600;
+ }
+
+ .mainbox_body2{
+    margin: 2%;
+    text-align: center;
+ }
+ #mainbox2.active{
+    transform: translate(-50%, -50%) scale(1);
+ }
+
+/*----------------------------------------------------------------------*/
+/* ---------------------first box 3 buttom -end------------------------- */
+ /*
+
+
+  /*----------------------------------------------------------------------*/
+/* ---------------------first box 4 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox3{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head3{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button3{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title3{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body3{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox3.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------first box 4 buttom -end------------------------- */
+/*
+
+ /*----------------------------------------------------------------------*/
+/* ---------------------second box 1 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox4{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head4{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button4{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title4{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body4{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox4.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------secondbox 1 buttom -end------------------------- */
+
+ /*----------------------------------------------------------------------*/
+/* ---------------------second box 2 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox5{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head5{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button5{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title5{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body5{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox5.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------second box 1 buttom -end------------------------- */
+/*
+
+
+
+ /*----------------------------------------------------------------------*/
+/* ---------------------second box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox6{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head6{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button6{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title6{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body6{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox6.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------secondbox 3 buttom -end------------------------- */
+/*
+
+ /*----------------------------------------------------------------------*/
+/* ---------------------second box 4 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox7{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head7{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button7{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title7{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body7{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox7.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------secondbox 4 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 1 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox8{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head8{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button8{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title8{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body8{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox8.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 1 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 2 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox9{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head9{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button9{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title9{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body9{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox9.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 2 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox10{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head10{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button10{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title10{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body10{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox10.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 3 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 4 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox11{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head11{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button11{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title11{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body11{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox11.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 4 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 1 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox12{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head12{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button12{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title12{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body12{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox12.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 4 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox10{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head10{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button10{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title10{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body10{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox10.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 3 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 4 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox11{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head11{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button11{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title11{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body11{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox11.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------Third box 4 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 1 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox12{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head12{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button12{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title12{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body12{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox12.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 1 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 2 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox13{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head13{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button13{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title13{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body13{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox13.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 2 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox14{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head14{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button14{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title14{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body14{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox14.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 3 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox15{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head15{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button15{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title15{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body15{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox15.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fourth box 3 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fifth box 1 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox16{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head16{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button16{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title16{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body16{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox16.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fifth box 1 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fifth box 2 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox17{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head17{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button17{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title17{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body17{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox17.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fifth box 2 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fifth box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox18{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head18{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button18{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title18{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body18{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox18.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fifth box 3 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fifth box 4 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox19{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head19{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button19{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title19{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body19{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox19.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------fifth box 4 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 1 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox20{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head20{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button20{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title20{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body20{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox20.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 1 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 2 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox21{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head21{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button21{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title21{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body21{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox21.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 2 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox22{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head22{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button22{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title22{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body22{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox22.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 3 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 4 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox23{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head23{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button23{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title23{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body23{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox23.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 3 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 4 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox24{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head24{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button24{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title24{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body24{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox24.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------sixth box 4 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------seventh box 1 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox24{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head24{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button24{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title24{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body24{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox24.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------six box 1 buttom -end------------------------- */
+/*
+
+
+/*----------------------------------------------------------------------*/
+/* ---------------------seventh box 2 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox25{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head25{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button25{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title25{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body25{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox25.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------seventh box 2 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------seventh box 3 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox26{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head26{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button26{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title26{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body26{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox26.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------seventh box 3 buttom -end------------------------- */
+/*
+
+/*----------------------------------------------------------------------*/
+/* ---------------------seventh box 4 buttom ----------------------------- */
+ /*----------------------------------------------------------------------*/
+
+ #mainbox27{
+   position: fixed;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0); /* scale 0 to hide the box which apper in the screen */
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+   background:rgb(255, 255, 255); 
+   border: 2px solid black;
+   color: #000000;
+   z-index: 10;
+   height: 85%;
+   width: 75%;
+   max-width: 85%;
+   max-height: 85%;
+   transition: 250ms ease-in-out;
+}
+
+.mainbox_head27{
+   display: flex;
+   border-bottom:3px  #e80f86df solid;
+   text-align: center;
+   margin: 5px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.close-button27{
+   background: none;
+   font-size:large;
+   border:none;
+   font-size: larger;
+   font-weight: bold;
+   cursor: pointer;
+ 
+}
+
+.mainbox_title27{
+   font-size: larger;
+   font-weight: 600;
+}
+
+.mainbox_body27{
+   margin: 2%;
+   text-align: center;
+}
+#mainbox27.active{
+   transform: translate(-50%, -50%) scale(1);
+}
+
+/*----------------------------------------------------------------------*/
+/* ---------------------seventh box 4 buttom -end------------------------- */
+/**/
+
+.mainbox_body p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body img{
+   height:17rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body1 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body1 img{
+   height:17rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body2 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body2 img{
+   height: 17rem;
+   width:auto;
+   margin: 5px;
+}
+
+.mainbox_body3 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body3 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body4 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body4 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body5 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body5 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body6 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body6 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body7 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body7 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body8 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body8 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body9 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body9 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+.mainbox_body10 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body10 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+.mainbox_body11 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body11 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body12 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body12 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body13 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body13 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body14 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body14 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body16 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body16 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body19 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body19 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body20 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body20 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body21 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body21 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body22 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body22 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body23 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body23 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body24 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body24 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body25 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body25 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
+
+.mainbox_body26 p{
+   margin:15px;
+   padding:15px;
+   font-size: larger;
+}
+.mainbox_body26 img{
+   height: 20rem;
+   width:auto;
+   margin: 10px;
+}
